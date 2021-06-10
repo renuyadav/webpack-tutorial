@@ -1,0 +1,15 @@
+$btn-background-color:yellow;
+$btn-color: black;
+
+.btn {
+    font-size: 20px;
+    color: $btn-color;
+    background-color: $btn-background-color;
+    padding: 7px 15px;
+    outline: none;
+}
+.txt {
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
