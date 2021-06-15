@@ -14,8 +14,3 @@ if( process.env.NODE_ENV === "production") {
     console.log("development mode");
 }
 
-import ('HelloWorldApp/btn').then(helloWorldButton => {
-    const Button = helloWorldButton.default;
-    const btns = new Button();
-    btns.render();
-});
